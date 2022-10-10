@@ -114,6 +114,11 @@ footer {
     color: #33323D;
 }
 
+.contact-button:hover {
+    background-color: #33323D;
+    color: #FAFAFA;
+}
+
 .div-footer {
     display: flex;
     justify-content: space-around;

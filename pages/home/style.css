@@ -30,6 +30,8 @@
     line-height: 50px;
 }
 
+
+
 .card-about {
     display: flex;
     align-items: center;
@@ -41,8 +43,13 @@
     height: 48px;
 
     background-color: #203A4C;
-
 }
+
+.card-about:hover {
+    background-color: #5FB4A2;
+}
+
+
 
 .card-about-image {
     display: flex;
@@ -51,9 +58,10 @@
 
     width: 48px;
     height: 48px;
-
-    background-color: #1D3444;
 }
+
+
+
 
 .card-about-image img {
     display: block;
@@ -150,6 +158,11 @@
     line-height: 14px;
     letter-spacing: 2px;
     text-transform: uppercase;
+}
+
+.div-about-text-botton:hover {
+    background-color: #33323D;
+    color: #FAFAFA;
 }
 
 .rectangle {
