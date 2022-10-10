@@ -1,0 +1,159 @@
+/*-------------------------------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+.font-family-public-sans {
+    font-family: 'Public Sans', sans-serif;
+}
+
+.font-family-ibarra {
+    font-family: 'Ibarra Real Nova', sans-serif;
+}
+
+/*-------------------------------------------------------*/
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 64px;
+}
+
+.div-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 1110px;
+}
+
+.nav-header a {
+    text-decoration: none;
+
+    font-size: 12px;
+    padding: 0px 20px;
+    width: 68px;
+    height: 14px;
+
+    color: #33323D;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section {
+    position: relative;
+
+    width: 1110px;
+    height: 600px;
+    margin-bottom: 150px;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 150px;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 1110px;
+    height: 84px;
+
+}
+
+.contact-interest {
+    font-style: normal;
+
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    width: 367px;
+    height: 84px;
+}
+
+.contact-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+
+    width: 168px;
+    height: 48px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #33323D;
+}
+
+.div-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 80px;
+    width: 100%;
+
+    background-color: #33323D;
+}
+
+.div-footer-navs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 30px;
+}
+
+.div-footer-navs>img {
+    width: 61px;
+    height: 32px;
+}
+
+
+.nav-footer a {
+    margin: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.div-footer-socials {
+    display: flex;
+    justify-content: space-between;
+
+    width: 104px;
+    height: 24px;
+}
