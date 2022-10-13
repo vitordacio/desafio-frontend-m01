@@ -30,8 +30,6 @@
     line-height: 50px;
 }
 
-
-
 .card-about {
     display: flex;
     align-items: center;
@@ -46,10 +44,9 @@
 }
 
 .card-about:hover {
-    background-color: #5FB4A2;
+    background-image: linear-gradient(to right, #55a2937e 10%, #5FB4A2);
+    /* background-color: #5FB4A2; */
 }
-
-
 
 .card-about-image {
     display: flex;
@@ -58,10 +55,8 @@
 
     width: 48px;
     height: 48px;
+
 }
-
-
-
 
 .card-about-image img {
     display: block;
@@ -75,108 +70,15 @@
     justify-content: center;
     align-items: center;
 
-    width: 152px;
-}
-
-.card-about p {
     font-style: normal;
+    text-align: center;
+    text-transform: uppercase;
+
+    width: 152px;
     font-weight: 400;
     font-size: 12px;
     line-height: 14px;
-    text-align: center;
     letter-spacing: 2px;
-    text-transform: uppercase;
-
 
     color: #FFFFFF;
-}
-
-
-
-
-.about {
-    display: flex;
-    justify-content: space-between;
-}
-
-.about>img {
-    display: block;
-
-    width: 540px;
-    height: 600px;
-}
-
-.div-about {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    justify-content: center;
-
-    width: 430px;
-    height: 600px;
-}
-
-.div-about-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
-    width: 430px;
-    height: 502px;
-}
-
-.div-about-text-titulo {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 42px;
-    margin-bottom: 20px;
-}
-
-.div-about-text-corpo {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 30px;
-
-    color: #33323D;
-}
-
-.div-about-text-botton {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    width: 204px;
-    height: 48px;
-    border: 1px solid black;
-    text-decoration: none;
-
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 14px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-}
-
-.div-about-text-botton:hover {
-    background-color: #33323D;
-    color: #FAFAFA;
-}
-
-.rectangle {
-    width: 430px;
-    height: 1px;
-    background-color: #979797;
-}
-
-.rectangle-up {
-    position: absolute;
-    top: 0;
-}
-
-.rectangle-down {
-    position: absolute;
-    bottom: 0;
 }

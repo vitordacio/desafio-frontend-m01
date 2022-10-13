@@ -1,0 +1,88 @@
+.rectangle-contact {
+    width: 1110px;
+    height: 1px;
+    background-color: #979797;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    width: 1110px;
+}
+
+.contact-section h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+
+    color: #33323D;
+}
+
+.contact-section h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 30px;
+
+    color: #33323D;
+}
+
+.contact-section p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #33323D;
+}
+
+.entry-right {
+    width: 635px;
+    height: 100%;
+}
+
+
+
+.receive {
+    height: 426px;
+}
+
+.input-contact {
+    width: 635px;
+    height: 100%;
+
+}
+
+.input-contact input {
+    width: 100%;
+    background-color: #E6E6E7;
+    outline: none;
+    padding: 10px;
+    border: none;
+}
+
+.contact-name input {
+    height: 48px;
+
+}
+
+.contact-email input {
+    height: 48px;
+}
+
+.contact-message input {
+    height: 96px;
+}
+
+.contact-button {
+    background-color: #203A4C;
+    color: #FAFAFA;
+    border: none;
+}
+
+.contact-button:hover {
+    background-color: #5FB4A2;
+    color: #FAFAFA;
+    border: none;
+}
